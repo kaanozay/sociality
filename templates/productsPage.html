@@ -1,0 +1,53 @@
+<head class="center1">
+    <link rel="stylesheet" href={{ url_for('static', filename='css/mystyle.css') }}>
+
+    <h1>Product id</h1>
+    <div class="form">
+      <form method="POST">
+          <input type="number" name="text" autocomplete="off" required />
+          <label for="text" class="label-name">
+              <span class="content-name">ID</span>
+          </label>
+
+      </form>
+  </div>
+</head>
+<body>
+
+  <table id="t01">
+    <tr>
+      <th>Id</th>
+      <th>Name</th> 
+      <th>Price</th>
+    </tr>
+    {% for d in data %}
+    <tr>
+      <td>{{d['_id']}}</td>
+      <td>{{d['name']}}</td>
+      <td>{{ d['price']}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  
+
+   <div class="products">
+    {% for d in data %}
+
+      <div class="product">
+        <div class="product-img">
+          <img src= "{{d['image']}} "/>
+        </div>
+        <div class="product-content">
+          <h3 class="price h3">
+            {{d['name']}}
+          </h3>
+          <p class="product-text price">Price: {{ d['price']}}</p>
+          
+          <p>ID: {{d['_id']}}</p>
+        </div>
+      </div>
+       
+    {% endfor %}
+ </div>
+
+</body>

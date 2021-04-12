@@ -13,3 +13,8 @@ This page shows all products and their information.Also you can go to the produc
 This is product page that includes product's information
 
 ![product page](https://user-images.githubusercontent.com/61757398/114446559-0a205900-9bda-11eb-988f-b553793c3d65.PNG)
+
+Database table like this.
+
+![data](https://user-images.githubusercontent.com/61757398/114448537-5c627980-9bdc-11eb-9436-1a22947737e6.PNG)
+

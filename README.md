@@ -1,6 +1,6 @@
 # sociality
 
-***IMPORTANT*** ***After running the project if you can't acces the page,please change the 0.0.0.0 to localhost.Project works smoothly.***
+***IMPORTANT -> After running the project if you can't acces the page,please change the 0.0.0.0 to localhost.Project works smoothly.***
 
 Enter the links in this page.
 
